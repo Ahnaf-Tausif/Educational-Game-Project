@@ -2,46 +2,107 @@
 <html>
  
 <body>
+<header>
+<h1>Level 1 to 2</h1>
+</header>
+<nav>
+<h2>Challenges include:</h2>
+<ol>
+<li>Variables and data types</li>
+ <li> Conditionals (must contain if, else if, and else)</li>
+</ol>
+</nav>
+<pre>
+  import java.util.Scanner;
+public class LabProgram {
+public static void main(String[] args) {
+Scanner scnr = new Scanner(System.in);
+            
 
-    <h1>Level 1 to 2</h1>
-    <h2>Challenges include</h2>
-    <p>Variables and data types</p>
-    <p>import java.util.Scanner;
-        <style>
+int userNum = scnr.nextInt();
+int divNum = scnr.nextInt();
+            
+System.out.print(userNum / (divNum) + " ");
+System.out.print(userNum / (divNum * divNum) + " ");
+System.out.println(userNum / (divNum * divNum * divNum));
+            
+scnr.close();
+}
+}
+</pre>
+<footer>
+<button class = "button">ANSWER</button>
+</footer>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</body>
+ 
+<style>
+
     
 body {background-image: url('pic.jpg');
 background-repeat: no-repeat;
-              background-attachment: fixed;
-              background-size: cover;
-            }
-h1   {color: blue;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 300%;
+background-attachment: fixed;
+background-size: cover;
+}
+h1   {color: black;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 500%;
 text-align: center;}
-p    {color: red;}
-pre {color:black}
+
+h2   {color: black;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+font-size: 250%;
+text-align:  ;}
+
+ol   {color: black;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 100%;
+text-align: ;}
+
+pre {color:brown;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 100%;
+text-align: center;}
+
+.button {
+background-color: black;
+color:white;
+padding: 16px 32px;
+text-align: center;
+font-size: 32px;
+margin: 50px 48px;
+cursor: pointer;
+}
+
+header {
+  background-color: #666;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+footer {
+  
+  text-align: center;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 280px; 
+  background: whitesmoke;
+  padding: 20px;
+}
+
 </style>
 
-<pre>
-        public class LabProgram {
-           public static void main(String[] args) {
-              Scanner scnr = new Scanner(System.in);
-              
 
-              int userNum = scnr.nextInt();
-              int divNum = scnr.nextInt();
-              
-              System.out.print(userNum / (divNum) + " ");
-              System.out.print(userNum / (divNum * divNum) + " ");
-              System.out.println(userNum / (divNum * divNum * divNum));
-              
-           scnr.close();
-           }
-        }
-        </pre>>
-        <p style="background-image: url('pic.jpg');"></p>
-    <p>Conditionals (must contain if, else if, and else)</p>
-    <button type="button">Click Me!</button>
-    
-    </body>
-    </html>
+
+
+</body>
+ 
+
+</html>
+
