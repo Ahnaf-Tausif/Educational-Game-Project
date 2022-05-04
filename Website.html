@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <body>
-    <h1>Welcome To The (Name of the game) Game!</h1>
+    <h1>Welcome To The SYNTAX ERROR Game!</h1>
     <h2>Ready to scratch your heads to debug?</h2>
     <center><img src = "scratchHead.jpeg" alt = "monkey scratching head" height="300" width="200"></center>
     <p>INSTRUCTIONS: This game has 5 JAVA problems in total.</p>
     <p>              After answering each problem, you will get a Hint that "may" be helpful for you to solve the final challenge.</p>
     <p>              If you are ready, press the "PLAY GAME" button below!</p>
 
-    <form action = "Java game level 1-2.html">
-        <button class = "button">PLAY GAME</button>
-    </form>
+    <div class = "wrapper">
+        <form action = "Java game level 1-2.html">
+            <button class = "button">PLAY GAME</button>
+        </form>
+    </div>
 
     <style>
        body {background-image: url('imgForIntro.webp');
@@ -45,6 +47,10 @@
            font-size: 32px;
            margin: 50px 48px;
            cursor: pointer;
+       }
+
+       .wrapper {
+           text-align: center;
        }
     </style>
 </body>
