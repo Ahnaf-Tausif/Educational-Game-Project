@@ -30,6 +30,27 @@ scnr.close();
 }
 }
 </pre>
+<article>
+<pre>
+  import java.util.Scanner;
+public class LabProgram {
+public static void main(String[] args) {
+Scanner scnr = new Scanner(System.in);
+            
+
+int userNum = scnr.nextInt();
+int divNum = scnr.nextInt();
+            
+System.out.print(userNum / (divNum) + " ");
+System.out.print(userNum / (divNum * divNum) + " ");
+System.out.println(userNum / (divNum * divNum * divNum));
+            
+scnr.close();
+}
+}
+</pre>
+</article>
+
 <footer>
 <button class = "button">ANSWER</button>
 </footer>
@@ -57,9 +78,9 @@ text-align:center;}
 ol   {color: black;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: 100%;
-text-align:center ;}
+text-align: ;}
 
-pre {color:brown;
+pre {color:whitesmoke;
 font-family:Arial, Helvetica, sans-serif;
 font-size: 100%;
 text-align: center;}
@@ -75,25 +96,32 @@ cursor: pointer;
 }
 
 header {
-  background-color: #666;
+  background-color: lightgrey;
   padding: 20px;
   text-align: center;
   font-size: 15px;
-  color: white;
+  color: lightblue;
 }
 
 footer {
   
   text-align: center;
-  color: white;
+  color: ;
 }
 
 nav {
   float: left;
   width: 30%;
   height: 280px; 
-  background: whitesmoke;
+  background: grey;
   padding: 20px;
+}
+
+article {
+  color:grey;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 100%;
+
 }
 
 </style>
