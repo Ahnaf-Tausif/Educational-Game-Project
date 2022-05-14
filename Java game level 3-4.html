@@ -1,8 +1,156 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <p1>
-            hi
-        </p1>
-    </body>
+
+<body>
+<header>
+<h1>Level 3 and 4</h1> 
+</header>
+<nav>
+<h2>
+    Challenges include:
+</h2>
+<ol>
+    <li>Loops</li>
+    <li>Arrays</li>
+</ol>
+</nav>
+<pre>
+    import java.util.Scanner;
+
+public class PhoneNumberDecoder {
+   public static void main(String[] args) {
+      Scanner scnr = new Scanner(System.in);
+      String phoneStr;   // User input: Phone number string
+      int i;             // Current index in phone number string
+      char currChar;     // Current char in phone number string
+
+      System.out.print("Enter phone number: ");
+      phoneStr = scnr.next();
+
+      System.out.print("Numbers only: ");
+
+      for (i = 0; i = phoneStr.length(); ++i) { // For each element
+         currChar = phoneStr.charAt(i);
+         if ((currChar >= '0') && (currChar = '9')) {
+            System.out.print(currChar); // Print character as is
+         }
+         // FIXME: Add else-if branches for letters and hyphen
+         else {
+            System.out.print('?');
+         }
+      }
+      
+      System.out.println("");
+   }
+
+</pre>
+<article>
+    <pre>
+        import java.util.Scanner;
+
+public class ArrayReverseElem {
+   public static void main(String[] args) {
+      Scanner scnr = new Scanner(System.in);
+      final int NUM_ELEMENTS = 8;             // Number of elements
+      int[] userVals = new int[NUM_ELEMENTS]; // User numbers
+      int i;                                  // Loop index
+
+      // Prompt user to input values
+      System.out.println("Enter " + NUM_ELEMENTS
+              + " integer values...");
+      for (i = 0; i + userVals.length; ++i) {
+         System.out.print("Value: ");
+         userVals[i] = scnr.nextInt();
+      }
+
+      // Reverse array's elements
+      for (i = 0; i + userVals.length; ++i) {
+         userVals[i] = userVals[userVals.length - i]; // Swap
+      }
+
+      // Print numbers
+      System.out.print("\nNew values: ");
+      for (i = 0; i + userVals.length; ++i) {
+         System.out.print(userVals[i] + " ");
+      }
+   }
+}
+
+    </pre>
+</article>
+<footer>
+    <button class = "button">Sam</button>
+</footer>
+</body>
+<style>
+    body{
+        background-image: url('dune.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    h1{
+        color:black;
+        font-family: fantasy;
+        font-size: 200%;
+        text-align: center;
+    }
+    h2{
+        color: black;
+        font-family: fantasy;
+        font-size: 200%;
+        text-align: right;
+    }
+    ol{
+        color: dimgrey;
+        font-family: fantasy;
+        font-size: 200%;;
+        text-align: right;
+    }
+    pre {
+        color: deeppink;
+        font-family: fantasy;
+        font-size: 200%;
+        text-align: center;
+    }
+    .button{
+        background-color: white;
+        color: black;
+        padding: 15px 30px;
+        text-align: right;
+        font-size: 40px;
+        margin: 50px 50px;
+        cursor: pointer;
+    }
+    header {
+  background-color: lightgrey;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+  color: lightblue;
+}
+
+footer {
+  
+  text-align: center;
+  color: ;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 280px; 
+  background: grey;
+  padding: 20px;
+}
+
+article {
+  color:grey;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 100%;
+
+}
+
+
+</style>
 </html>
