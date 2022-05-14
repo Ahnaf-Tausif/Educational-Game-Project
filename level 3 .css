@@ -1,5 +1,5 @@
 body{
-    background-image: url("level3.jpg";
+    background-image: url("level3.jpg");
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -9,5 +9,5 @@ h1{
     font-family: fantasy;
     font-size: 300%;
     text-align: center;
-    
+
 }
