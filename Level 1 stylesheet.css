@@ -1,7 +1,7 @@
 
 body {background-image: url('Door.jpg');
 background-repeat: repeat-x;
-background-attachment: ;
+
 background-size: 1500px 1000px;
 font-family:Cormorant Infant;
 }
@@ -26,36 +26,32 @@ font-size: 100%;
 text-align: center;}
 
 .button {
-width: 400px;
-height: 300px;
-margin: 300px;
+width: 420px;
+height: 200px;
 background-color: black;
-
-
 font-family:Cormorant Infant;
-
 text-align: center;
 font-size: 15px;
-margin: 40px 20px;
+
 cursor: pointer;
 }
 
 .button1 {
-  width: 400px;
-height: 300px;
+  width: 420px;
+height: 200px;
+margin: 30px 30px;
 background-color: black;
-
-
 font-family:Cormorant Infant;
-
 text-align: center;
 font-size: 15px;
-margin: 40px 20px;
+
 cursor: pointer;
 }
+
 .button2 {
-  width: 400px;
-height: 300px;
+  width: 420px;
+height: 200px;
+margin: 30px 30px;
 background-color: black;
 
 
@@ -72,7 +68,7 @@ cursor: pointer;
 header {
       
       padding: 20px;
-      margin: 50px 26px;
+      margin: -70px 26px;
       text-align: center;
       
       font-size: 15px;
@@ -82,6 +78,8 @@ header {
   footer {
       
     text-align: center;
+    margin: 100px 10px;
+   
     
 
     
