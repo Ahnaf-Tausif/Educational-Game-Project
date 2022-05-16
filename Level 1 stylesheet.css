@@ -1,13 +1,13 @@
 
 body {background-image: url('pic.jpg');
-background-repeat: no-repeat;
-background-attachment: fixed;
+background-repeat: repeat-x;
+background-attachment: ;
 background-size: cover;
 font-family:fantasy;
 }
 h1   {color: black;
 font-family:fantasy;
-font-size: 300%;
+font-size: 400%;
 text-align: center;}
 
 h2   {color: black;
@@ -29,9 +29,10 @@ text-align: center;}
 width: 400px;
 height: 300px;
 background-color: black;
-color:white;
-padding: 16px 32px;
+color: ;
+
 font-family:fantasy;
+
 text-align: center;
 font-size: 15px;
 margin: 40px 20px;
@@ -69,7 +70,7 @@ article {
   text-align: center;
   margin: 50px 26px;
 font-family: fantasy;
-font-size: 300%;
+font-size: 250%;
 
 }
 
