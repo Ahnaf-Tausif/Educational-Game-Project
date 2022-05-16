@@ -1,10 +1,10 @@
-body {background-image: url('pic.jpg');
+body {background-image: url('Door1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 1500px 1000px;
     font-family:Cormorant Infant;
     }
-    h1   {color: black;
+    h1   {color: whitesmoke;
     font-family:Cormorant Infant;
     font-size: 300%;
     text-align: center;}
@@ -21,11 +21,22 @@ body {background-image: url('pic.jpg');
     
     pre {color:whitesmoke;
     font-family:Cormorant Infant;
-    font-size: 50%;
+    font-size: 80%;
     text-align: center;}
+
+    h3 {color:whitesmoke;
+      font-family:Cormorant Infant;
+      background-color: black;
+      width: 420px;
+      height: 200px;
+      margin: 50px 50px;
+      font-size: 200%;
+      text-align: center;
+
+    }
     
     .button {
-        width: 150px;
+        width: 250px;
         height: 100px;
     background-color: black;
     color:white;
@@ -50,7 +61,7 @@ body {background-image: url('pic.jpg');
     footer {
       
       text-align: center;
-      font-size: 70px;
+      font-size: 25px;
 
       
     }
