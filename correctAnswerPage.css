@@ -1,5 +1,10 @@
-.h1 {
-    color:black;
+body {background-image: url("correctAnswer1.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+    h1 {
+    color:white;
     font-family:fantasy;
     font-size: 300%;
     text-align: center;
