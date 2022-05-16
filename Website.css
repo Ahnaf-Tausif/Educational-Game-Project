@@ -22,6 +22,12 @@ body {background-image: url('forestBG.png');
        text-align: center;
        }
 
+    h3 {color:white;
+        font-family:fantasy;
+        font-size: 150%;
+        text-align: center;
+    }
+
      .button {
         background-color: black;
         color:white;
