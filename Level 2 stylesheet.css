@@ -1,36 +1,47 @@
-body {background-image: url('pic.jpg');
+body {background-image: url('Door1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    font-family:fantasy;
+    background-size: 1500px 1000px;
+    font-family:Cormorant Infant;
     }
     h1   {color: black;
-    font-family:fantasy;
+    font-family:Cormorant Infant;
     font-size: 300%;
     text-align: center;}
     
     h2   {color: black;
-    font-family: fantasy;
+    font-family: Cormorant Infant;
     font-size: 90%;
     text-align:center;}
     
     ol   {color: black;
-      font-family:fantasy;
+      font-family:Cormorant Infant;
     font-size: 100%;
     }
     
     pre {color:whitesmoke;
-    font-family:fantasy;
-    font-size: 50%;
+    font-family:Cormorant Infant;
+    font-size: 80%;
     text-align: center;}
+
+    h3 {color:whitesmoke;
+      font-family:Cormorant Infant;
+      background-color: black;
+      width: 500px;
+      height: 600px;
+      margin: 100px 450px;
+      font-size: 200%;
+      text-align: center;
+
+    }
     
     .button {
-        width: 150px;
+        width: 250px;
         height: 100px;
-    background-color: black;
-    color:white;
+    background-color:darkgrey ;
+    color:black;
     padding: 8px 16px;
-    font-family:fantasy;
+    font-family:Cormorant Infant;
     text-align: center;
     font-size: 25px;
     margin: 50px 26px;
@@ -50,7 +61,7 @@ body {background-image: url('pic.jpg');
     footer {
       
       text-align: center;
-      font-size: 70px;
+      font-size: 25px;
 
       
     }
@@ -67,7 +78,7 @@ body {background-image: url('pic.jpg');
       color:white;
       text-align: center;
       margin: 50px 26px;
-    font-family: fantasy;
+    font-family: Cormorant Infant;
     font-size: 200%;
     
     }
