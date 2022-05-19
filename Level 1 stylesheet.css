@@ -23,45 +23,26 @@ font-size: 100%;
 pre {color:whitesmoke;
 font-family:Cormorant Infant;
 font-size: 100%;
-text-align: center;}
+margin: 30px 50px;
+}
+
+div {
+  padding: 20px; 
+  width: 300px;
+}
+
 
 .button {
 width: 420px;
 height: 200px;
-background-color: black;
-font-family:Cormorant Infant;
-text-align: center;
-font-size: 15px;
-
-cursor: pointer;
-}
-
-.button1 {
-  width: 420px;
-height: 200px;
 margin: 30px 30px;
 background-color: black;
 font-family:Cormorant Infant;
 text-align: center;
 font-size: 15px;
-
 cursor: pointer;
 }
 
-.button2 {
-  width: 420px;
-height: 200px;
-margin: 30px 30px;
-background-color: black;
-
-
-font-family:Cormorant Infant;
-
-text-align: center;
-font-size: 15px;
-margin: 40px 20px;
-cursor: pointer;
-}
 
 
 
@@ -78,7 +59,7 @@ header {
   footer {
       
     text-align: center;
-    margin: 100px 10px;
+    margin: -50px 10px;
    
     
 
@@ -101,4 +82,8 @@ font-family: Cormorant Infant;
 font-size: 250%;
 
 }
+
+
+
+
 

@@ -24,6 +24,12 @@ body {background-image: url('Door1.jpg');
     font-size: 80%;
     text-align: center;}
 
+    div {
+      
+      
+      text-align: center;
+    }
+
     h3 {color:whitesmoke;
       font-family:Cormorant Infant;
       background-color: black;
@@ -83,4 +89,7 @@ body {background-image: url('Door1.jpg');
     
     }
     
+    .wrapper {
+      text-align: center;
+    }
     
