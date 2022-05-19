@@ -1,7 +1,8 @@
 
 body {background-image: url('Door.jpg');
-background-repeat: repeat-x;
 
+background-repeat: no-repeat;
+background-attachment: fixed;
 background-size: 1500px 1000px;
 font-family:Cormorant Infant;
 }
@@ -26,14 +27,14 @@ font-size: 100%;
 margin: 30px 50px;
 }
 
-div {
-  padding: 20px; 
-  width: 300px;
-}
+
+  
+
+
 
 
 .button {
-width: 420px;
+width: 430px;
 height: 200px;
 margin: 30px 30px;
 background-color: black;
