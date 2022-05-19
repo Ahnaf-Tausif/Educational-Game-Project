@@ -4,6 +4,7 @@ body {background-image: url('Door1.jpg');
     background-size: 1500px 1000px;
     font-family:Cormorant Infant;
     }
+
     h1   {color: black;
     font-family:Cormorant Infant;
     font-size: 300%;
@@ -14,15 +15,17 @@ body {background-image: url('Door1.jpg');
     font-size: 90%;
     text-align:center;}
     
-    ol   {color: black;
-      font-family:Cormorant Infant;
-    font-size: 100%;
-    }
+  
     
     pre {color:whitesmoke;
     font-family:Cormorant Infant;
     font-size: 80%;
     text-align: center;}
+
+    div {
+      margin: 30px 20px;
+      text-align: center;
+    }
 
     h3 {color:whitesmoke;
       font-family:Cormorant Infant;
@@ -34,6 +37,14 @@ body {background-image: url('Door1.jpg');
       text-align: center;
 
     }
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-150%, 350%);
+      }
     
     .button {
         width: 250px;
@@ -61,7 +72,7 @@ body {background-image: url('Door1.jpg');
     footer {
       
       text-align: center;
-      font-size: 25px;
+      font-size: 30px 25px;
 
       
     }
@@ -83,4 +94,7 @@ body {background-image: url('Door1.jpg');
     
     }
     
+    .wrapper {
+      text-align: center;
+    }
     
