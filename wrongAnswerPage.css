@@ -11,10 +11,12 @@ h1 {color:red;
 }
 
 button {background-color: black;
-    color:white;
-    padding: 16px 20px;
+    color:red;
+    padding: 20px 20px;
     text-align: center;
     font-size: 32px;
     margin: 20px 20px;
     cursor: pointer;
+    position:relative;
+    margin-top:30%;
 }
