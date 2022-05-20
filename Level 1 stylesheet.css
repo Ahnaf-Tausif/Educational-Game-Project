@@ -16,10 +16,7 @@ font-family: Cormorant Infant;
 font-size: 90%;
 text-align:center;}
 
-ol   {color: black;
-  font-family:Cormorant Infant;
-font-size: 100%;
-}
+
 
 pre {color:whitesmoke;
 font-family:Cormorant Infant;
@@ -27,25 +24,16 @@ font-size: 100%;
 margin: 30px 50px;
 }
 
-
-  
-
-
-
-
 .button {
 width: 430px;
 height: 200px;
-margin: 30px 30px;
+margin: 15px 30px;
 background-color: black;
 font-family:Cormorant Infant;
 text-align: center;
 font-size: 15px;
 cursor: pointer;
 }
-
-
-
 
 header {
       
@@ -57,13 +45,19 @@ header {
       color: lightblue;
   }
 
-  footer {
-      
-    text-align: center;
-    margin: -50px 10px;
-   
+  div {
     
+    padding: 20px; 
+    width: 300px;
+    resize: both;
+    margin: 30px 30px;
+    display: inline-block;
+    width: 600px;
+  }
 
+  footer { 
+    text-align: center;
+    margin: -30px 10px;
     
   }
 

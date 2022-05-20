@@ -25,6 +25,8 @@ body {background-image: url('Door1.jpg');
     div {
       margin: 30px 20px;
       text-align: center;
+      display: inline-block;
+      width: 600px;
     }
 
     h3 {color:whitesmoke;
@@ -37,14 +39,7 @@ body {background-image: url('Door1.jpg');
       text-align: center;
 
     }
-    .center {
-      margin: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-150%, 350%);
-      }
+   
     
     .button {
         width: 250px;
@@ -53,10 +48,11 @@ body {background-image: url('Door1.jpg');
     color:black;
     padding: 8px 16px;
     font-family:Cormorant Infant;
-    text-align: center;
+   
     font-size: 25px;
     margin: 50px 26px;
     cursor: pointer;
+    
     }
     
     header {
@@ -70,10 +66,7 @@ body {background-image: url('Door1.jpg');
       }
     
     footer {
-      
-      text-align: center;
-      font-size: 30px 25px;
-
+    text-align:center;
       
     }
     
@@ -94,7 +87,5 @@ body {background-image: url('Door1.jpg');
     
     }
     
-    .wrapper {
-      text-align: center;
-    }
+    
     
