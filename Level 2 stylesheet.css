@@ -42,8 +42,8 @@ body {background-image: url('Door1.jpg');
    
     
     .button {
-        width: 250px;
-        height: 100px;
+      width: 430px;
+      height: 200px;
     background-color:darkgrey ;
     color:black;
     padding: 8px 16px;
