@@ -21,6 +21,8 @@ font-size: 100%;
 .button {
   background-color: #ffffff;
 font-family:Cormorant Infant;
+width:350px;
+height: 100px;
 font-size: 15px;
 height: 200px ;
 cursor: pointer;
