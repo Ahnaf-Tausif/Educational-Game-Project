@@ -10,14 +10,14 @@ body {background-image: url('Door1.jpg');
     font-size: 300%;
     text-align: center;}
     
-    h2   {color: black;
+    h2   {color: white;
     font-family: Cormorant Infant;
-    font-size: 90%;
+    font-size: 300%;
     text-align:center;}
     
   
     
-    pre {color:black;
+    pre {color:white;
     font-family:Cormorant Infant;
     font-size: 80%;
     text-align: left;}
@@ -31,7 +31,7 @@ body {background-image: url('Door1.jpg');
 
     h3 {color:whitesmoke;
       font-family:Cormorant Infant;
-      background-color: white;
+      
       width: 500px;
       height: 600px;
       margin: 100px 450px;
@@ -44,7 +44,7 @@ body {background-image: url('Door1.jpg');
     .button {
       width: 430px;
       height: 200px;
-    background-color:white ;
+      background-color: black;
     color:black;
     padding: 8px 16px;
     font-family:Cormorant Infant;
@@ -69,18 +69,13 @@ body {background-image: url('Door1.jpg');
       
     }
     
-    nav {
-      float: left;
-      width: 30%;
-      height: 280px; 
-      background: grey;
-      padding: 20px;
-    }
+   
     
     article {
       color:white;
       text-align: center;
       margin: 50px 26px;
+     
     font-family: Cormorant Infant;
     font-size: 200%;
     
