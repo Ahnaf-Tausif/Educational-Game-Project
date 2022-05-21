@@ -1,46 +1,35 @@
 body{
-    background-image: url("lastGate.jpg");
+    background-image: url("level4Image.jpg");
     background-repeat:no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 1500px 1000px;
+   
 }
 h1{
-    color: white;
+    color: whitesmoke;
     font-family: fantasy;
-    font-size: 300%;
+    font-size: 400%;
     text-align: center;
 
 }
-h2{
-    color: white;
-    font-family: fantasy;
-    font-size: 150%;
-    text-align: left;
-}
-ol{
-    color: white;
-    font-family: fantasy;
-    font-size: 150%;
-    text-align: left;
-}
-
-
 .button{
-    background-color: white;
-    color: black;
-    padding: 50px 50px;
+    width: 430px;
+    height: 200px;
+    margin: 15px 30px;
+    background-color: black;
+    color: goldenrod;
     text-align: center;
     font-size: 40px;
-    margin: 30px 30px;
     cursor: pointer;
     }
  pre{
-    color: white;
+    color: whitesmoke;
     font-family: fantasy;
     font-size: 150%;
     text-align: center;
 
  }   
+
  div {
     border: 2px solid;
     padding: 20px; 
@@ -54,5 +43,5 @@ ol{
   article{
       text-align: center;
       color: white;
-      font-size: 300%;
+      font-size: 150%;
   }
