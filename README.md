@@ -1,1 +1,1 @@
-[(https://github.com/Ahnaf-Tausif/Educational-Game-Project/tree/main/.vscode)](https://github.com/Ahnaf-Tausif/Educational-Game-Project/tree/main/.vscode)
+https://ahnaf-tausif.github.io/Educational-Game-Project/ 
