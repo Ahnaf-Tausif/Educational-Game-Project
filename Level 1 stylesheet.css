@@ -6,32 +6,25 @@ background-attachment: fixed;
 background-size: 1500px 1000px;
 font-family:Cormorant Infant;
 }
-h1   {color: black;
+
+h1   {color: white;
 font-family:Cormorant Infant;
 font-size: 400%;
 text-align: center;}
 
-h2   {color: black;
-font-family: Cormorant Infant;
-font-size: 90%;
-text-align:center;}
-
-
-
-pre {color:whitesmoke;
+pre {color:black;
 font-family:Cormorant Infant;
 font-size: 100%;
-margin: 30px 50px;
+
 }
 
 .button {
-width: 430px;
-height: 200px;
-margin: 15px 30px;
-background-color: black;
+  background-color: #ffffff;
 font-family:Cormorant Infant;
-text-align: center;
+width:350px;
+height: 100px;
 font-size: 15px;
+height: 200px ;
 cursor: pointer;
 }
 
@@ -42,14 +35,10 @@ header {
       text-align: center;
       
       font-size: 15px;
-      color: lightblue;
+      
   }
 
   div {
-    
-    padding: 20px; 
-    width: 300px;
-    resize: both;
     margin: 30px 30px;
     display: inline-block;
     width: 600px;
@@ -57,17 +46,11 @@ header {
 
   footer { 
     text-align: center;
-    margin: -30px 10px;
+    
     
   }
 
-nav {
-  float: left;
-  width: 30%;
-  height: 280px; 
-  background: grey;
-  padding: 20px;
-}
+
 
 article {
   color:white;
