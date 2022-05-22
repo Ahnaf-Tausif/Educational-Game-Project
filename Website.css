@@ -16,11 +16,17 @@ body {background-image: url('forestBG.png');
         text-align: center;
         }
 
-     p {color:white;
+     p {color:black;
        font-family:initial;
        font-size: 150%;
        text-align: center;
        }
+
+     p {color:white;
+        font-family:initial;
+        font-size: 150%;
+        text-align: center;
+    }
 
     h3 {color:white;
         font-family:fantasy;
